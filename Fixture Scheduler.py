@@ -53,7 +53,8 @@ for team in team_and_division_split:
     new_club = Club(club)
     club_list.append(new_club)
 
-for
+for club in club_list:
+    team = club.Team()
 # Make a list of clubs and their teams
 # Each team in teams_from_table needs to check if club exists (should only be for 2nd XI)
 # Check club list if club already exists
