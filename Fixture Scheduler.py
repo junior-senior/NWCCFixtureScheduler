@@ -2,14 +2,15 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 import datetime
-
+import random
+import numpy as np
 
 # Club classes
 class Club:
-    def __init__(self, club):
+    def __init__(self, club, number_of_match_days):
         self.club = club
         self.club_teams = []
-        self.ground_in_use = []
+        self.ground_in_use = [number_of_match_days]
 
     def add_team(self, team):
         self.club_teams.append(team)
@@ -29,8 +30,22 @@ class Fixture:
 
 
 class FixtureList:
-    def __init__(self):
-        self.fixture_list = [[[]]]
+    def __init__(self, match_day, division, fixture_count):
+        self.fixture_list = []
+
+
+# Get days teams can play on
+dstart = datetime.date(2020, 4, 15)
+dend = datetime.date(2020, 9, 10)
+
+days = [dstart + datetime.timedelta(days=x) for x in range((dend-dstart).days + 1)
+        if (dstart + datetime.timedelta(days=x)).weekday() == 5]
+
+# Store in list in nice format
+for day in days:
+    day_formatted = day.strftime("%A %d %B %Y")
+    days[days.index(day)] = day_formatted
+
 
 # Websites to get teams from
 division1_html = urlopen('http://www.nwcl.play-cricket.com/website/websites/view_division?id=83670')
@@ -89,18 +104,113 @@ for site in division_site_list:
                 clubs.add_team(new_team)
                 break
         if not club_found_in_list:
-            new_club = Club(this_club)
+            new_club = Club(this_club, len(days))
             new_team = Team(this_club_team, division)
             new_club.add_team(new_team)
             club_list.append(new_club)
             club_found_in_list = False
 
-# Now with the clubs and teams sorted, time to start on the fixtures
-# I need to get a list of every Saturday from the end of April to the 1st weekend of September and store them in a list
-# Create a 3D list, get the length of the list and make the 1st element of a 3D array that length
-# The 2nd element will be the division
-# The 3rd element will be the fixtures
-# Need a list of the teams in each division
-# Calculate the number of games in a season
-# Find out number of off weeks
-#
+
+# Get lists for team divisions
+division1_team_list = []
+division2_team_list = []
+division3_team_list = []
+division4_team_list = []
+
+for clubs in club_list:
+    for teams in clubs.club_teams:
+        if teams.division == 1:
+            division1_team_list.append("{club} {team}".format(club=clubs.club, team=teams.team))
+        if teams.division == 2:
+            division2_team_list.append("{club} {team}".format(club=clubs.club, team=teams.team))
+        if teams.division == 3:
+            division3_team_list.append("{club} {team}".format(club=clubs.club, team=teams.team))
+        if teams.division == 4:
+            division4_team_list.append("{club} {team}".format(club=clubs.club, team=teams.team))
+
+division_list = []
+
+division_list.append(division1_team_list)
+division_list.append(division2_team_list)
+division_list.append(division3_team_list)
+division_list.append(division4_team_list)
+
+# for divisions in range(0, len(division_list)):
+#     division_teams_list = division_list[divisions]
+#     fixture_list.fixture_list = [[days], [divisions], [len(division_teams_list)]]
+
+home_team = ''
+away_team = ''
+match_day_fixtures = []
+team_list = division1_team_list[:]
+
+
+def pick_teams(division_list, team_list, match_day, fixture_list):
+    home_team = random.choice(team_list)
+    away_team = random.choice(team_list)
+    home_team, away_team = check_fixture(home_team, away_team, division_list, fixture_list)
+    for clubs in club_list:
+        if clubs.club == home_team.strip(' 1st XI'):
+            clubs.ground_in_use[days.index(match_day)] = True
+            break
+    print(home_team)
+    print(away_team)
+    print(team_list)
+    team_list.remove(home_team)
+    team_list.remove(away_team)
+    return home_team, away_team
+
+
+def check_fixture(home_team, away_team, team_list, fixture_list):
+    fixture = "{home} v {away}".format(home=home_team, away=away_team)
+    if home_team == away_team:
+        print("This is called")
+        away_team = random.choice(team_list)
+        check_fixture(home_team, away_team, team_list, fixture_list)
+    for fixtures in fixture_list:
+        if fixture in fixture_list:
+            away_team = random.choice(team_list)
+            check_fixture(home_team, away_team, team_list, fixture_list)
+    return home_team, away_team
+
+
+fixture_count = 0
+fixture_list = FixtureList(len(days), 1, int(len(team_list)/2))
+this_week_fixtures = []
+
+for match_day in days:
+    team_list = division1_team_list[:]
+    print(len(team_list))
+    while len(team_list) > 0:
+        home_team, away_team = pick_teams(division_list[0], team_list, match_day, fixture_list.fixture_list)
+        fixture = "{home} v {away}".format(home=home_team, away=away_team)
+        this_week_fixtures.append(fixture)
+    fixture_list.fixture_list.append(this_week_fixtures)
+    this_week_fixtures = []
+
+print(fixture_list.fixture_list)
+f = open('Fixtures.txt', 'w')
+for lines in fixture_list.fixture_list:
+    f.write(str(lines) + "\n")
+f.close()
+# Randomly pick home and away team from the division team list,
+# Check match hasn't happened before (exact string match in fixture list)
+# If yes, reverse fixture
+# Check match hasn't happened before (exact string match in fixture list)
+# If it has, check home ground isn't in use
+# pick new away team
+# Repeat above
+# If hasn't
+# Check home ground is available
+# If it is
+# add to teams picked list, append ground in use to True
+# Pick another team, add to team picked list
+# add to Fixture List
+# repeat until len picked teams = len division team list
+# Reset Picked Teams
+# Do next match day
+# Randomly pick as team from the division team list, add to team picked list, check ground in use for that day
+# Pick another team, add to team picked list, if ground is in use, check this teams ground, if both in use
+# pick new home team
+# add to Fixture List
+# repeat until len picked teams = len division team list
