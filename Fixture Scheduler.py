@@ -4,13 +4,13 @@ import re
 import datetime
 import random
 import numpy as np
-
+import copy
 # Club classes
 class Club:
     def __init__(self, club, number_of_match_days):
         self.club = club
         self.club_teams = []
-        self.ground_in_use = [number_of_match_days]
+        self.ground_in_use = []
 
     def add_team(self, team):
         self.club_teams.append(team)
@@ -35,7 +35,7 @@ class FixtureList:
 
 
 # Get days teams can play on
-dstart = datetime.date(2020, 4, 15)
+dstart = datetime.date(2020, 4, 11)
 dend = datetime.date(2020, 9, 10)
 
 days = [dstart + datetime.timedelta(days=x) for x in range((dend-dstart).days + 1)
@@ -142,20 +142,23 @@ division_list.append(division4_team_list)
 home_team = ''
 away_team = ''
 match_day_fixtures = []
-team_list = division1_team_list[:]
+team_list = list(division1_team_list)
 
 
-def pick_teams(division_list, team_list, match_day, fixture_list):
+def pick_teams(team_list, match_day, fixture_list):
     home_team = random.choice(team_list)
     away_team = random.choice(team_list)
-    home_team, away_team = check_fixture(home_team, away_team, division_list, fixture_list)
+    home_team, away_team = check_fixture(home_team, away_team, team_list, fixture_list)
+    match_day_index = days.index(match_day)
     for clubs in club_list:
         if clubs.club == home_team.strip(' 1st XI'):
-            clubs.ground_in_use[days.index(match_day)] = True
+            print(clubs.club, match_day_index)
+            clubs.ground_in_use.append(True)
             break
-    print(home_team)
-    print(away_team)
-    print(team_list)
+        if clubs.club == away_team.strip(' 1st XI'):
+            print(clubs.club, match_day_index)
+            clubs.ground_in_use.append(False)
+            break
     team_list.remove(home_team)
     team_list.remove(away_team)
     return home_team, away_team
@@ -164,25 +167,26 @@ def pick_teams(division_list, team_list, match_day, fixture_list):
 def check_fixture(home_team, away_team, team_list, fixture_list):
     fixture = "{home} v {away}".format(home=home_team, away=away_team)
     if home_team == away_team:
-        print("This is called")
+        print(team_list)
+        team_list.remove(home_team)
         away_team = random.choice(team_list)
+        team_list.append(home_team)
         check_fixture(home_team, away_team, team_list, fixture_list)
-    for fixtures in fixture_list:
-        if fixture in fixture_list:
-            away_team = random.choice(team_list)
-            check_fixture(home_team, away_team, team_list, fixture_list)
+    # for fixtures in fixture_list:
+    #     if fixture in fixture_list:
+    #         away_team = random.choice(team_list)
+    #         check_fixture(home_team, away_team, team_list, fixture_list)
     return home_team, away_team
-
 
 fixture_count = 0
 fixture_list = FixtureList(len(days), 1, int(len(team_list)/2))
 this_week_fixtures = []
 
 for match_day in days:
-    team_list = division1_team_list[:]
+    team_list = list(division1_team_list)
     print(len(team_list))
     while len(team_list) > 0:
-        home_team, away_team = pick_teams(division_list[0], team_list, match_day, fixture_list.fixture_list)
+        home_team, away_team = pick_teams(team_list, match_day, fixture_list.fixture_list)
         fixture = "{home} v {away}".format(home=home_team, away=away_team)
         this_week_fixtures.append(fixture)
     fixture_list.fixture_list.append(this_week_fixtures)
