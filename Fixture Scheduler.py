@@ -9,7 +9,7 @@ import copy
 
 # Club classes
 class Club:
-    def __init__(self, club, number_of_match_days):
+    def __init__(self, club):
         self.club = club
         self.club_teams = []
         self.ground_in_use = []
@@ -22,6 +22,7 @@ class Team:
     def __init__(self, team, division):
         self.team = team
         self.division = division
+        self.matches = []
 
 
 class Fixture:
@@ -106,7 +107,7 @@ for site in division_site_list:
                 clubs.add_team(new_team)
                 break
         if not club_found_in_list:
-            new_club = Club(this_club, len(days))
+            new_club = Club(this_club)
             new_team = Team(this_club_team, division)
             new_club.add_team(new_team)
             club_list.append(new_club)
@@ -148,10 +149,19 @@ team_list = list(division1_team_list)
 
 
 def pick_teams(team_list, match_day, fixture_list):
+
     home_team = random.choice(team_list)
-    away_team = random.choice(team_list)
-    home_team, away_team = check_fixture(home_team, away_team, team_list, fixture_list)
+    # Remove home team from team list so they can't be selected twice
+    team_list.remove(home_team)
+    try:
+        away_team = random.choice(team_list)
+    except IndexError:
+        return
+    # Put home team back on team list
+    team_list.append(home_team)
+    home_team, away_team = check_fixture(home_team, away_team, team_list, fixture_list, club_list)
     match_day_index = days.index(match_day)
+
     for clubs in club_list:
         if clubs.club == home_team.strip(' 1st XI'):
             # print(clubs.club, match_day_index)
@@ -169,21 +179,55 @@ def pick_teams(team_list, match_day, fixture_list):
         pass
 
 
-def check_fixture(home_team, away_team, team_list, fixture_list):
-    fixture = "{home} v {away}".format(home=home_team, away=away_team)
-    if home_team == away_team:
-        team_list.remove(home_team)
-        try:
-            away_team = random.choice(team_list)
-            team_list.append(home_team)
-            check_fixture(home_team, away_team, team_list, fixture_list)
-        except IndexError:
-            pass
-    # for fixtures in fixture_list:
-    #     if fixture in fixture_list:
-    #         away_team = random.choice(team_list)
-    #         check_fixture(home_team, away_team, team_list, fixture_list)
-    return home_team, away_team
+def check_fixture(home_team, away_team, team_list, fixture_list, clubs_list):
+    # if home_team_string == away_team_string:
+    #     team_list.remove(home_team_string)
+    #     try:
+    #         away_team_string = random.choice(team_list)
+    #         check_fixture(home_team_string, away_team_string, team_list, fixture_list)
+    #     except IndexError:
+    #         pass
+    # Get home team club and team
+    # Get away team club and team
+    home_club = home_team.strip(' 1st XI')
+    away_club = away_team.strip(' 1st XI')
+    home_club_team = home_team.strip(home_club + ' ')
+    away_club_team = away_team.strip(away_club + ' ')
+
+    # Get teams from clubs
+    home_team_object = None
+    away_team_object = None
+
+    for clubs in club_list:
+        if home_club == clubs.club:
+            for teams in clubs.club_teams:
+                if home_club_team == teams.team:
+                    home_team_object = teams
+                    break
+        if away_club == clubs.club:
+            for teams in clubs.club_teams:
+                if away_club_team == teams.team:
+                    away_team_object = teams
+                    break
+    try:
+        if away_team.lower() in home_team_object.matches:
+            print("Match has already happened")
+            if away_team.upper() in home_team_object.matches:
+                print("Teams have played twice, select new teams")
+                # Need to pick two new teams, return false? 
+            else:
+                # If the reverse fixture can go ahead, add the home and away teams to their respective matches lists
+                home_team_object.matches.append(away_team.upper())
+                away_team_object.matches.append(home_team.lower())
+                return away_team, home_team
+        else:
+            # If the selected fixture can go ahead, add the home and away teams to their respective matches lists
+            home_team_object.matches.append(away_team.lower())
+            away_team_object.matches.append(home_team.upper())
+        return home_team, away_team
+    except AttributeError:
+        pass
+
 
 fixture_count = 0
 
@@ -207,11 +251,15 @@ for divisions in division_list:
     for lines in fixture_list.fixture_list:
         f.write(str(lines) + "\n")
     f.close()
+
 # Randomly pick home and away team from the division team list,
 # Check match hasn't happened before (exact string match in fixture list)
 # If yes, reverse fixture
+# Repeat above
+
 # Check match hasn't happened before (exact string match in fixture list)
-# If it has, check home ground isn't in use
+# If it hasn, check home ground isn't in use
+
 # pick new away team
 # Repeat above
 # If hasn't
