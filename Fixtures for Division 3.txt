@@ -1,22 +1,176 @@
-['Pwllheli CC 2nd XI v Hawarden Park CC 2nd XI', 'Pontblyddyn CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI', 'Carmel & District CC 2nd XI v Denbigh CC 2nd XI', 'Abergele CC 2nd XI v Gwersyllt Park CC 2nd XI', 'Mold CC 2nd XI v Buckley CC, Wales 2nd XI', "Connah's Quay CC 2nd XI v St Asaph CC 2nd XI"]
-['Gwersyllt Park CC 2nd XI v Abergele CC 2nd XI', "Connah's Quay CC 2nd XI v St Asaph CC 2nd XI", 'Buckley CC, Wales 2nd XI v Hawarden Park CC 2nd XI', 'Pwllheli CC 2nd XI v Denbigh CC 2nd XI', 'Mold CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI', 'Carmel & District CC 2nd XI v Pontblyddyn CC 2nd XI']
-['Hawarden Park CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI', 'Abergele CC 2nd XI v Pwllheli CC 2nd XI', 'Pontblyddyn CC 2nd XI v Carmel & District CC 2nd XI', 'Gwersyllt Park CC 2nd XI v St Asaph CC 2nd XI', 'Mold CC 2nd XI v Denbigh CC 2nd XI', "Buckley CC, Wales 2nd XI v Connah's Quay CC 2nd XI"]
-['St Asaph CC 2nd XI v Gwersyllt Park CC 2nd XI', 'Pontblyddyn CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI', 'Carmel & District CC 2nd XI v Hawarden Park CC 2nd XI', 'Denbigh CC 2nd XI v Mold CC 2nd XI', "Connah's Quay CC 2nd XI v Pwllheli CC 2nd XI", 'Abergele CC 2nd XI v Buckley CC, Wales 2nd XI']
-['Pwllheli CC 2nd XI v St Asaph CC 2nd XI', 'Mold CC 2nd XI v Buckley CC, Wales 2nd XI', 'Denbigh CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI', 'Abergele CC 2nd XI v Carmel & District CC 2nd XI', "Connah's Quay CC 2nd XI v Pontblyddyn CC 2nd XI", 'Hawarden Park CC 2nd XI v Gwersyllt Park CC 2nd XI']
-["Connah's Quay CC 2nd XI v Denbigh CC 2nd XI", 'Mynydd Isa & Maeshafn CC 2nd XI v Gwersyllt Park CC 2nd XI', 'Carmel & District CC 2nd XI v Pontblyddyn CC 2nd XI', 'Mold CC 2nd XI v St Asaph CC 2nd XI', 'Pwllheli CC 2nd XI v Hawarden Park CC 2nd XI', 'Abergele CC 2nd XI v Buckley CC, Wales 2nd XI']
-['Abergele CC 2nd XI v Hawarden Park CC 2nd XI', 'Mold CC 2nd XI v Buckley CC, Wales 2nd XI', 'Mynydd Isa & Maeshafn CC 2nd XI v Carmel & District CC 2nd XI', "Pwllheli CC 2nd XI v Connah's Quay CC 2nd XI", 'St Asaph CC 2nd XI v Gwersyllt Park CC 2nd XI', 'Pontblyddyn CC 2nd XI v Denbigh CC 2nd XI']
-['Mynydd Isa & Maeshafn CC 2nd XI v Hawarden Park CC 2nd XI', "Connah's Quay CC 2nd XI v Mold CC 2nd XI", 'Denbigh CC 2nd XI v Pontblyddyn CC 2nd XI', 'Pwllheli CC 2nd XI v Carmel & District CC 2nd XI', 'Abergele CC 2nd XI v Gwersyllt Park CC 2nd XI', 'Buckley CC, Wales 2nd XI v St Asaph CC 2nd XI']
-['Gwersyllt Park CC 2nd XI v Pontblyddyn CC 2nd XI', 'Buckley CC, Wales 2nd XI v Abergele CC 2nd XI', 'Hawarden Park CC 2nd XI v Pwllheli CC 2nd XI', 'St Asaph CC 2nd XI v Denbigh CC 2nd XI', "Carmel & District CC 2nd XI v Connah's Quay CC 2nd XI", 'Mold CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI']
-['Pwllheli CC 2nd XI v Mold CC 2nd XI', 'Denbigh CC 2nd XI v Pontblyddyn CC 2nd XI', "Connah's Quay CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI", 'Hawarden Park CC 2nd XI v Abergele CC 2nd XI', 'Gwersyllt Park CC 2nd XI v St Asaph CC 2nd XI', 'Buckley CC, Wales 2nd XI v Carmel & District CC 2nd XI']
-["Connah's Quay CC 2nd XI v Pontblyddyn CC 2nd XI", 'Buckley CC, Wales 2nd XI v Pwllheli CC 2nd XI', 'Hawarden Park CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI', 'Carmel & District CC 2nd XI v Abergele CC 2nd XI', 'Gwersyllt Park CC 2nd XI v Denbigh CC 2nd XI', 'St Asaph CC 2nd XI v Mold CC 2nd XI']
-['Hawarden Park CC 2nd XI v Denbigh CC 2nd XI', 'St Asaph CC 2nd XI v Abergele CC 2nd XI', "Connah's Quay CC 2nd XI v Pwllheli CC 2nd XI", 'Mold CC 2nd XI v Carmel & District CC 2nd XI', 'Buckley CC, Wales 2nd XI v Gwersyllt Park CC 2nd XI', 'Mynydd Isa & Maeshafn CC 2nd XI v Pontblyddyn CC 2nd XI']
-['Pwllheli CC 2nd XI v St Asaph CC 2nd XI', 'Mynydd Isa & Maeshafn CC 2nd XI v Carmel & District CC 2nd XI', 'Mold CC 2nd XI v Abergele CC 2nd XI', 'Buckley CC, Wales 2nd XI v Denbigh CC 2nd XI', 'Pontblyddyn CC 2nd XI v Gwersyllt Park CC 2nd XI', "Hawarden Park CC 2nd XI v Connah's Quay CC 2nd XI"]
-["Connah's Quay CC 2nd XI v Abergele CC 2nd XI", 'Buckley CC, Wales 2nd XI v Denbigh CC 2nd XI', 'Pwllheli CC 2nd XI v St Asaph CC 2nd XI', 'Pontblyddyn CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI', 'Carmel & District CC 2nd XI v Mold CC 2nd XI', 'Gwersyllt Park CC 2nd XI v Hawarden Park CC 2nd XI']
-['Pwllheli CC 2nd XI v Buckley CC, Wales 2nd XI', "Connah's Quay CC 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI", 'Hawarden Park CC 2nd XI v Pontblyddyn CC 2nd XI', 'St Asaph CC 2nd XI v Denbigh CC 2nd XI', 'Abergele CC 2nd XI v Mold CC 2nd XI', 'Gwersyllt Park CC 2nd XI v Carmel & District CC 2nd XI']
-['Gwersyllt Park CC 2nd XI v Carmel & District CC 2nd XI', 'Mold CC 2nd XI v Hawarden Park CC 2nd XI', 'Denbigh CC 2nd XI v Pontblyddyn CC 2nd XI', "Pwllheli CC 2nd XI v Connah's Quay CC 2nd XI", 'Mynydd Isa & Maeshafn CC 2nd XI v Abergele CC 2nd XI', 'Buckley CC, Wales 2nd XI v St Asaph CC 2nd XI']
-["Pontblyddyn CC 2nd XI v Connah's Quay CC 2nd XI", 'Mynydd Isa & Maeshafn CC 2nd XI v Pwllheli CC 2nd XI', 'St Asaph CC 2nd XI v Hawarden Park CC 2nd XI', 'Carmel & District CC 2nd XI v Denbigh CC 2nd XI', 'Abergele CC 2nd XI v Gwersyllt Park CC 2nd XI', 'Mold CC 2nd XI v Buckley CC, Wales 2nd XI']
-['Buckley CC, Wales 2nd XI v Abergele CC 2nd XI', 'St Asaph CC 2nd XI v Pontblyddyn CC 2nd XI', 'Denbigh CC 2nd XI v Mold CC 2nd XI', "Mynydd Isa & Maeshafn CC 2nd XI v Connah's Quay CC 2nd XI", 'Gwersyllt Park CC 2nd XI v Hawarden Park CC 2nd XI', 'Pwllheli CC 2nd XI v Carmel & District CC 2nd XI']
-["Connah's Quay CC 2nd XI v Buckley CC, Wales 2nd XI", 'Mold CC 2nd XI v Carmel & District CC 2nd XI', 'St Asaph CC 2nd XI v Pwllheli CC 2nd XI', 'Mynydd Isa & Maeshafn CC 2nd XI v Gwersyllt Park CC 2nd XI', 'Hawarden Park CC 2nd XI v Denbigh CC 2nd XI', 'Abergele CC 2nd XI v Pontblyddyn CC 2nd XI']
-['Mold CC 2nd XI v Carmel & District CC 2nd XI', 'St Asaph CC 2nd XI v Gwersyllt Park CC 2nd XI', 'Abergele CC 2nd XI v Hawarden Park CC 2nd XI', "Connah's Quay CC 2nd XI v Buckley CC, Wales 2nd XI", 'Pwllheli CC 2nd XI v Denbigh CC 2nd XI', 'Mynydd Isa & Maeshafn CC 2nd XI v Pontblyddyn CC 2nd XI']
-["Gwersyllt Park CC 2nd XI v Connah's Quay CC 2nd XI", 'Pontblyddyn CC 2nd XI v Mold CC 2nd XI', 'Mynydd Isa & Maeshafn CC 2nd XI v Carmel & District CC 2nd XI', 'Abergele CC 2nd XI v St Asaph CC 2nd XI', 'Pwllheli CC 2nd XI v Buckley CC, Wales 2nd XI', 'Hawarden Park CC 2nd XI v Denbigh CC 2nd XI']
-["Connah's Quay CC 2nd XI v Pwllheli CC 2nd XI", 'Denbigh CC 2nd XI v St Asaph CC 2nd XI', 'Buckley CC, Wales 2nd XI v Mynydd Isa & Maeshafn CC 2nd XI', 'Abergele CC 2nd XI v Pontblyddyn CC 2nd XI', 'Hawarden Park CC 2nd XI v Carmel & District CC 2nd XI', 'Gwersyllt Park CC 2nd XI v Mold CC 2nd XI']
+Date: Saturday 11 April 2020
+Pwllheli CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+Hawarden Park CC 2nd XI V Gwersyllt Park CC 2nd XI
+Denbigh CC 2nd XI V Carmel & District CC 2nd XI
+Abergele CC 2nd XI V Mold CC 2nd XI
+St Asaph CC 2nd XI V Pontblyddyn CC 2nd XI
+Buckley CC, Wales 2nd XI V Connah's Quay CC 2nd XI
+
+Date: Saturday 18 April 2020
+Connah's Quay CC 2nd XI V Gwersyllt Park CC 2nd XI
+Buckley CC, Wales 2nd XI V Abergele CC 2nd XI
+Carmel & District CC 2nd XI V Mold CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Pontblyddyn CC 2nd XI
+Pwllheli CC 2nd XI V St Asaph CC 2nd XI
+Hawarden Park CC 2nd XI V Denbigh CC 2nd XI
+
+Date: Saturday 25 April 2020
+Hawarden Park CC 2nd XI V Pwllheli CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Abergele CC 2nd XI
+Mold CC 2nd XI V St Asaph CC 2nd XI
+Pontblyddyn CC 2nd XI V Connah's Quay CC 2nd XI
+Buckley CC, Wales 2nd XI V Denbigh CC 2nd XI
+Carmel & District CC 2nd XI V Gwersyllt Park CC 2nd XI
+
+Date: Saturday 02 May 2020
+Abergele CC 2nd XI V St Asaph CC 2nd XI
+Denbigh CC 2nd XI V Connah's Quay CC 2nd XI
+Buckley CC, Wales 2nd XI V Mold CC 2nd XI
+Gwersyllt Park CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+Pwllheli CC 2nd XI V Carmel & District CC 2nd XI
+Pontblyddyn CC 2nd XI V Hawarden Park CC 2nd XI
+
+Date: Saturday 09 May 2020
+Hawarden Park CC 2nd XI V Abergele CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Pwllheli CC 2nd XI
+Denbigh CC 2nd XI V St Asaph CC 2nd XI
+Gwersyllt Park CC 2nd XI V Carmel & District CC 2nd XI
+Pontblyddyn CC 2nd XI V Buckley CC, Wales 2nd XI
+Connah's Quay CC 2nd XI V Mold CC 2nd XI
+
+Date: Saturday 16 May 2020
+Denbigh CC 2nd XI V Mold CC 2nd XI
+Carmel & District CC 2nd XI V Connah's Quay CC 2nd XI
+Pontblyddyn CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+Gwersyllt Park CC 2nd XI V Pwllheli CC 2nd XI
+Hawarden Park CC 2nd XI V St Asaph CC 2nd XI
+Abergele CC 2nd XI V Buckley CC, Wales 2nd XI
+
+Date: Saturday 23 May 2020
+Mold CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+St Asaph CC 2nd XI V Hawarden Park CC 2nd XI
+Pontblyddyn CC 2nd XI V Abergele CC 2nd XI
+Carmel & District CC 2nd XI V Buckley CC, Wales 2nd XI
+Pwllheli CC 2nd XI V Denbigh CC 2nd XI
+Gwersyllt Park CC 2nd XI V Connah's Quay CC 2nd XI
+
+Date: Saturday 30 May 2020
+Connah's Quay CC 2nd XI V Pwllheli CC 2nd XI
+Gwersyllt Park CC 2nd XI V Pontblyddyn CC 2nd XI
+St Asaph CC 2nd XI V Mold CC 2nd XI
+Carmel & District CC 2nd XI V Abergele CC 2nd XI
+Buckley CC, Wales 2nd XI V Hawarden Park CC 2nd XI
+Denbigh CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+
+Date: Saturday 06 June 2020
+Mold CC 2nd XI V Pwllheli CC 2nd XI
+Gwersyllt Park CC 2nd XI V Buckley CC, Wales 2nd XI
+St Asaph CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+Denbigh CC 2nd XI V Pontblyddyn CC 2nd XI
+Connah's Quay CC 2nd XI V Hawarden Park CC 2nd XI
+Abergele CC 2nd XI V Carmel & District CC 2nd XI
+
+Date: Saturday 13 June 2020
+Hawarden Park CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+Mold CC 2nd XI V Pontblyddyn CC 2nd XI
+Carmel & District CC 2nd XI V Pwllheli CC 2nd XI
+Abergele CC 2nd XI V Connah's Quay CC 2nd XI
+St Asaph CC 2nd XI V Buckley CC, Wales 2nd XI
+Denbigh CC 2nd XI V Gwersyllt Park CC 2nd XI
+
+Date: Saturday 20 June 2020
+Abergele CC 2nd XI V Denbigh CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Buckley CC, Wales 2nd XI
+Pwllheli CC 2nd XI V Mold CC 2nd XI
+St Asaph CC 2nd XI V Connah's Quay CC 2nd XI
+Carmel & District CC 2nd XI V Hawarden Park CC 2nd XI
+Pontblyddyn CC 2nd XI V Gwersyllt Park CC 2nd XI
+
+Date: Saturday 27 June 2020
+Gwersyllt Park CC 2nd XI V Denbigh CC 2nd XI
+Buckley CC, Wales 2nd XI V Pwllheli CC 2nd XI
+Hawarden Park CC 2nd XI V Pontblyddyn CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Mold CC 2nd XI
+St Asaph CC 2nd XI V Carmel & District CC 2nd XI
+Connah's Quay CC 2nd XI V Abergele CC 2nd XI
+
+Date: Saturday 04 July 2020
+Pwllheli CC 2nd XI V Buckley CC, Wales 2nd XI
+Mold CC 2nd XI V Denbigh CC 2nd XI
+Gwersyllt Park CC 2nd XI V St Asaph CC 2nd XI
+Carmel & District CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+Hawarden Park CC 2nd XI V Connah's Quay CC 2nd XI
+Abergele CC 2nd XI V Pontblyddyn CC 2nd XI
+
+Date: Saturday 11 July 2020
+Denbigh CC 2nd XI V Abergele CC 2nd XI
+Carmel & District CC 2nd XI V Pontblyddyn CC 2nd XI
+Mold CC 2nd XI V Hawarden Park CC 2nd XI
+St Asaph CC 2nd XI V Pwllheli CC 2nd XI
+Buckley CC, Wales 2nd XI V Gwersyllt Park CC 2nd XI
+Connah's Quay CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+
+Date: Saturday 18 July 2020
+Mynydd Isa & Maeshafn CC 2nd XI V St Asaph CC 2nd XI
+Connah's Quay CC 2nd XI V Pontblyddyn CC 2nd XI
+Abergele CC 2nd XI V Gwersyllt Park CC 2nd XI
+Hawarden Park CC 2nd XI V Carmel & District CC 2nd XI
+Denbigh CC 2nd XI V Pwllheli CC 2nd XI
+Mold CC 2nd XI V Buckley CC, Wales 2nd XI
+
+Date: Saturday 25 July 2020
+St Asaph CC 2nd XI V Abergele CC 2nd XI
+Pontblyddyn CC 2nd XI V Carmel & District CC 2nd XI
+Hawarden Park CC 2nd XI V Buckley CC, Wales 2nd XI
+Gwersyllt Park CC 2nd XI V Mold CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Denbigh CC 2nd XI
+Pwllheli CC 2nd XI V Connah's Quay CC 2nd XI
+
+Date: Saturday 01 August 2020
+Denbigh CC 2nd XI V Hawarden Park CC 2nd XI
+Pwllheli CC 2nd XI V Gwersyllt Park CC 2nd XI
+Buckley CC, Wales 2nd XI V Carmel & District CC 2nd XI
+Pontblyddyn CC 2nd XI V St Asaph CC 2nd XI
+Abergele CC 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+Mold CC 2nd XI V Connah's Quay CC 2nd XI
+
+Date: Saturday 08 August 2020
+Pontblyddyn CC 2nd XI V Mold CC 2nd XI
+Abergele CC 2nd XI V Pwllheli CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Connah's Quay CC 2nd XI
+Carmel & District CC 2nd XI V Denbigh CC 2nd XI
+Gwersyllt Park CC 2nd XI V Hawarden Park CC 2nd XI
+Buckley CC, Wales 2nd XI V St Asaph CC 2nd XI
+
+Date: Saturday 15 August 2020
+Pwllheli CC 2nd XI V Hawarden Park CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Carmel & District CC 2nd XI
+St Asaph CC 2nd XI V Gwersyllt Park CC 2nd XI
+Pontblyddyn CC 2nd XI V Denbigh CC 2nd XI
+Connah's Quay CC 2nd XI V Buckley CC, Wales 2nd XI
+Mold CC 2nd XI V Abergele CC 2nd XI
+
+Date: Saturday 22 August 2020
+Connah's Quay CC 2nd XI V Carmel & District CC 2nd XI
+Abergele CC 2nd XI V Hawarden Park CC 2nd XI
+Buckley CC, Wales 2nd XI V Mynydd Isa & Maeshafn CC 2nd XI
+Pontblyddyn CC 2nd XI V Pwllheli CC 2nd XI
+Mold CC 2nd XI V Gwersyllt Park CC 2nd XI
+St Asaph CC 2nd XI V Denbigh CC 2nd XI
+
+Date: Saturday 29 August 2020
+Connah's Quay CC 2nd XI V St Asaph CC 2nd XI
+Gwersyllt Park CC 2nd XI V Abergele CC 2nd XI
+Mold CC 2nd XI V Carmel & District CC 2nd XI
+Pwllheli CC 2nd XI V Pontblyddyn CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Hawarden Park CC 2nd XI
+Denbigh CC 2nd XI V Buckley CC, Wales 2nd XI
+
+Date: Saturday 05 September 2020
+Carmel & District CC 2nd XI V St Asaph CC 2nd XI
+Buckley CC, Wales 2nd XI V Pontblyddyn CC 2nd XI
+Hawarden Park CC 2nd XI V Mold CC 2nd XI
+Mynydd Isa & Maeshafn CC 2nd XI V Gwersyllt Park CC 2nd XI
+Pwllheli CC 2nd XI V Abergele CC 2nd XI
+Connah's Quay CC 2nd XI V Denbigh CC 2nd XI
+

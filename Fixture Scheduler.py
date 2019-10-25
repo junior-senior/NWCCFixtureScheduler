@@ -5,6 +5,9 @@ import datetime
 import random
 import numpy as np
 import copy
+from competitions.scheduler import ScheduleGenerationFailed
+from competitions.scheduler.roundrobin import DoubleRoundRobinScheduler
+
 
 
 # Club classes
@@ -41,13 +44,13 @@ class FixtureList:
 dstart = datetime.date(2020, 4, 11)
 dend = datetime.date(2020, 9, 10)
 
-days = [dstart + datetime.timedelta(days=x) for x in range((dend-dstart).days + 1)
+match_days = [dstart + datetime.timedelta(days=x) for x in range((dend-dstart).days + 1)
         if (dstart + datetime.timedelta(days=x)).weekday() == 5]
 
 # Store in list in nice format
-for day in days:
+for day in match_days:
     day_formatted = day.strftime("%A %d %B %Y")
-    days[days.index(day)] = day_formatted
+    match_days[match_days.index(day)] = day_formatted
 
 
 # Websites to get teams from
@@ -63,6 +66,7 @@ division_site_list.append(division3_html)
 division_site_list.append(division4_html)
 
 club_list = []
+division_fixture_list = []
 
 for site in division_site_list:
     # Parse websites
@@ -138,141 +142,29 @@ division_list.append(division2_team_list)
 division_list.append(division3_team_list)
 division_list.append(division4_team_list)
 
-# for divisions in range(0, len(division_list)):
-#     division_teams_list = division_list[divisions]
-#     fixture_list.fixture_list = [[days], [divisions], [len(division_teams_list)]]
-
-home_team = ''
-away_team = ''
-match_day_fixtures = []
-team_list = list(division1_team_list)
-
-
-def pick_teams(team_list, match_day, fixture_list):
-
-    home_team = random.choice(team_list)
-    # Remove home team from team list so they can't be selected twice
-    team_list.remove(home_team)
-    try:
-        away_team = random.choice(team_list)
-    except IndexError:
-        return
-    # Put home team back on team list
-    team_list.append(home_team)
-    home_team, away_team = check_fixture(home_team, away_team, team_list, fixture_list, club_list)
-    match_day_index = days.index(match_day)
-
-    for clubs in club_list:
-        if clubs.club == home_team.strip(' 1st XI'):
-            # print(clubs.club, match_day_index)
-            clubs.ground_in_use.append(True)
-            break
-        if clubs.club == away_team.strip(' 1st XI'):
-            # print(clubs.club, match_day_index)
-            clubs.ground_in_use.append(False)
-            break
-    try:
-        team_list.remove(home_team)
-        team_list.remove(away_team)
-        return home_team, away_team
-    except ValueError:
-        pass
-
-
-def check_fixture(home_team, away_team, team_list, fixture_list, clubs_list):
-    # if home_team_string == away_team_string:
-    #     team_list.remove(home_team_string)
-    #     try:
-    #         away_team_string = random.choice(team_list)
-    #         check_fixture(home_team_string, away_team_string, team_list, fixture_list)
-    #     except IndexError:
-    #         pass
-    # Get home team club and team
-    # Get away team club and team
-    home_club = home_team.strip(' 1st XI')
-    away_club = away_team.strip(' 1st XI')
-    home_club_team = home_team.strip(home_club + ' ')
-    away_club_team = away_team.strip(away_club + ' ')
-
-    # Get teams from clubs
-    home_team_object = None
-    away_team_object = None
-
-    for clubs in club_list:
-        if home_club == clubs.club:
-            for teams in clubs.club_teams:
-                if home_club_team == teams.team:
-                    home_team_object = teams
-                    break
-        if away_club == clubs.club:
-            for teams in clubs.club_teams:
-                if away_club_team == teams.team:
-                    away_team_object = teams
-                    break
-    try:
-        if away_team.lower() in home_team_object.matches:
-            print("Match has already happened")
-            if away_team.upper() in home_team_object.matches:
-                print("Teams have played twice, select new teams")
-                # Need to pick two new teams, return false? 
-            else:
-                # If the reverse fixture can go ahead, add the home and away teams to their respective matches lists
-                home_team_object.matches.append(away_team.upper())
-                away_team_object.matches.append(home_team.lower())
-                return away_team, home_team
-        else:
-            # If the selected fixture can go ahead, add the home and away teams to their respective matches lists
-            home_team_object.matches.append(away_team.lower())
-            away_team_object.matches.append(home_team.upper())
-        return home_team, away_team
-    except AttributeError:
-        pass
-
-
-fixture_count = 0
-
 this_week_fixtures = []
 for divisions in division_list:
-    fixture_list = FixtureList(len(days), division_list.index(divisions), int(len(team_list) / 2))
-    for match_day in days:
-        team_list = copy.copy(divisions)
-        while len(team_list) > 0:
-            try:
-                home_team, away_team = pick_teams(team_list, match_day, fixture_list.fixture_list)
-                fixture = "{home} v {away}".format(home=home_team, away=away_team)
-                this_week_fixtures.append(fixture)
-            except TypeError:
-                pass
-        fixture_list.fixture_list.append(this_week_fixtures)
-        this_week_fixtures = []
+    print("Division", division_list.index(divisions) + 1)
+    division_team_list = copy.copy(divisions)
+
+    fixtures = DoubleRoundRobinScheduler(division_team_list).generate_matches()
+    rounds = DoubleRoundRobinScheduler(division_team_list).generate_round(fixtures)
+    schedule = DoubleRoundRobinScheduler(division_team_list).generate_schedule()
     fixture_division = division_list.index(divisions) + 1
 
     f = open('Fixtures for Division {division}.txt'.format(division=fixture_division), 'w')
-    for lines in fixture_list.fixture_list:
-        f.write(str(lines) + "\n")
+
+    for game_week in schedule:
+        match_day = match_days[schedule.index(game_week)]
+        f.write("Date: " + str(match_day) + "\n")
+        for teams in game_week:
+            home_team = teams[0]
+            away_team = teams[1]
+            if home_team is None:
+                home_team = "None"
+            if away_team is None:
+                away_team = 'None'
+            f.write(home_team + " V " + away_team + "\n")
+        f.write("\n")
+
     f.close()
-
-# Randomly pick home and away team from the division team list,
-# Check match hasn't happened before (exact string match in fixture list)
-# If yes, reverse fixture
-# Repeat above
-
-# Check match hasn't happened before (exact string match in fixture list)
-# If it hasn, check home ground isn't in use
-
-# pick new away team
-# Repeat above
-# If hasn't
-# Check home ground is available
-# If it is
-# add to teams picked list, append ground in use to True
-# Pick another team, add to team picked list
-# add to Fixture List
-# repeat until len picked teams = len division team list
-# Reset Picked Teams
-# Do next match day
-# Randomly pick as team from the division team list, add to team picked list, check ground in use for that day
-# Pick another team, add to team picked list, if ground is in use, check this teams ground, if both in use
-# pick new home team
-# add to Fixture List
-# repeat until len picked teams = len division team list

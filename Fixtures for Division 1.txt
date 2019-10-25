@@ -1,22 +1,176 @@
-['Llay Welfare CC 1st XI v Carmel & District CC 1st XI', 'Gwersyllt Park CC 1st XI v Conwy CC 1st XI', 'Dolgellau CC 1st XI v Mold CC 1st XI', 'Ruthin CC 1st XI v Hawarden Park CC 1st XI', 'Bersham CC 1st XI v Abergele CC 1st XI', 'Llanrwst CC 1st XI v Bethesda CC 1st XI']
-['Bethesda CC 1st XI v Carmel & District CC 1st XI', 'Ruthin CC 1st XI v Bersham CC 1st XI', 'Abergele CC 1st XI v Llay Welfare CC 1st XI', 'Conwy CC 1st XI v Gwersyllt Park CC 1st XI', 'Mold CC 1st XI v Llanrwst CC 1st XI', 'Dolgellau CC 1st XI v Hawarden Park CC 1st XI']
-['Mold CC 1st XI v Hawarden Park CC 1st XI', 'Gwersyllt Park CC 1st XI v Bersham CC 1st XI', 'Llay Welfare CC 1st XI v Abergele CC 1st XI', 'Ruthin CC 1st XI v Dolgellau CC 1st XI', 'Llanrwst CC 1st XI v Carmel & District CC 1st XI', 'Bethesda CC 1st XI v Conwy CC 1st XI']
-['Gwersyllt Park CC 1st XI v Carmel & District CC 1st XI', 'Dolgellau CC 1st XI v Bersham CC 1st XI', 'Mold CC 1st XI v Abergele CC 1st XI', 'Bethesda CC 1st XI v Llanrwst CC 1st XI', 'Conwy CC 1st XI v Hawarden Park CC 1st XI', 'Llay Welfare CC 1st XI v Ruthin CC 1st XI']
-['Bethesda CC 1st XI v Mold CC 1st XI', 'Bersham CC 1st XI v Dolgellau CC 1st XI', 'Llay Welfare CC 1st XI v Hawarden Park CC 1st XI', 'Llanrwst CC 1st XI v Abergele CC 1st XI', 'Gwersyllt Park CC 1st XI v Conwy CC 1st XI', 'Carmel & District CC 1st XI v Ruthin CC 1st XI']
-['Bersham CC 1st XI v Gwersyllt Park CC 1st XI', 'Hawarden Park CC 1st XI v Llay Welfare CC 1st XI', 'Carmel & District CC 1st XI v Mold CC 1st XI', 'Dolgellau CC 1st XI v Bethesda CC 1st XI', 'Llanrwst CC 1st XI v Conwy CC 1st XI', 'Ruthin CC 1st XI v Abergele CC 1st XI']
-['Llay Welfare CC 1st XI v Conwy CC 1st XI', 'Abergele CC 1st XI v Mold CC 1st XI', 'Llanrwst CC 1st XI v Bethesda CC 1st XI', 'Dolgellau CC 1st XI v Carmel & District CC 1st XI', 'Gwersyllt Park CC 1st XI v Bersham CC 1st XI', 'Hawarden Park CC 1st XI v Ruthin CC 1st XI']
-['Mold CC 1st XI v Dolgellau CC 1st XI', 'Hawarden Park CC 1st XI v Bersham CC 1st XI', 'Bethesda CC 1st XI v Llanrwst CC 1st XI', 'Llay Welfare CC 1st XI v Gwersyllt Park CC 1st XI', 'Carmel & District CC 1st XI v Abergele CC 1st XI', 'Ruthin CC 1st XI v Conwy CC 1st XI']
-['Llay Welfare CC 1st XI v Dolgellau CC 1st XI', 'Bersham CC 1st XI v Ruthin CC 1st XI', 'Conwy CC 1st XI v Abergele CC 1st XI', 'Hawarden Park CC 1st XI v Gwersyllt Park CC 1st XI', 'Mold CC 1st XI v Bethesda CC 1st XI', 'Carmel & District CC 1st XI v Llanrwst CC 1st XI']
-['Abergele CC 1st XI v Carmel & District CC 1st XI', 'Gwersyllt Park CC 1st XI v Ruthin CC 1st XI', 'Llay Welfare CC 1st XI v Hawarden Park CC 1st XI', 'Bersham CC 1st XI v Bethesda CC 1st XI', 'Llanrwst CC 1st XI v Dolgellau CC 1st XI', 'Conwy CC 1st XI v Mold CC 1st XI']
-['Conwy CC 1st XI v Ruthin CC 1st XI', 'Bethesda CC 1st XI v Dolgellau CC 1st XI', 'Mold CC 1st XI v Bersham CC 1st XI', 'Llanrwst CC 1st XI v Llay Welfare CC 1st XI', 'Carmel & District CC 1st XI v Gwersyllt Park CC 1st XI', 'Abergele CC 1st XI v Hawarden Park CC 1st XI']
-['Dolgellau CC 1st XI v Bersham CC 1st XI', 'Abergele CC 1st XI v Carmel & District CC 1st XI', 'Gwersyllt Park CC 1st XI v Conwy CC 1st XI', 'Llay Welfare CC 1st XI v Hawarden Park CC 1st XI', 'Mold CC 1st XI v Bethesda CC 1st XI', 'Ruthin CC 1st XI v Llanrwst CC 1st XI']
-['Hawarden Park CC 1st XI v Bethesda CC 1st XI', 'Conwy CC 1st XI v Gwersyllt Park CC 1st XI', 'Abergele CC 1st XI v Dolgellau CC 1st XI', 'Llay Welfare CC 1st XI v Llanrwst CC 1st XI', 'Mold CC 1st XI v Carmel & District CC 1st XI', 'Ruthin CC 1st XI v Bersham CC 1st XI']
-['Abergele CC 1st XI v Ruthin CC 1st XI', 'Dolgellau CC 1st XI v Llay Welfare CC 1st XI', 'Bersham CC 1st XI v Mold CC 1st XI', 'Conwy CC 1st XI v Carmel & District CC 1st XI', 'Gwersyllt Park CC 1st XI v Bethesda CC 1st XI', 'Hawarden Park CC 1st XI v Llanrwst CC 1st XI']
-['Carmel & District CC 1st XI v Llanrwst CC 1st XI', 'Gwersyllt Park CC 1st XI v Hawarden Park CC 1st XI', 'Bethesda CC 1st XI v Mold CC 1st XI', 'Bersham CC 1st XI v Llay Welfare CC 1st XI', 'Dolgellau CC 1st XI v Conwy CC 1st XI', 'Abergele CC 1st XI v Ruthin CC 1st XI']
-['Abergele CC 1st XI v Gwersyllt Park CC 1st XI', 'Hawarden Park CC 1st XI v Mold CC 1st XI', 'Conwy CC 1st XI v Bethesda CC 1st XI', 'Ruthin CC 1st XI v Carmel & District CC 1st XI', 'Dolgellau CC 1st XI v Llay Welfare CC 1st XI', 'Bersham CC 1st XI v Llanrwst CC 1st XI']
-['Mold CC 1st XI v Conwy CC 1st XI', 'Hawarden Park CC 1st XI v Dolgellau CC 1st XI', 'Carmel & District CC 1st XI v Llay Welfare CC 1st XI', 'Gwersyllt Park CC 1st XI v Bersham CC 1st XI', 'Llanrwst CC 1st XI v Ruthin CC 1st XI', 'Abergele CC 1st XI v Bethesda CC 1st XI']
-['Mold CC 1st XI v Ruthin CC 1st XI', 'Carmel & District CC 1st XI v Gwersyllt Park CC 1st XI', 'Llay Welfare CC 1st XI v Dolgellau CC 1st XI', 'Llanrwst CC 1st XI v Bersham CC 1st XI', 'Bethesda CC 1st XI v Hawarden Park CC 1st XI', 'Abergele CC 1st XI v Conwy CC 1st XI']
-['Hawarden Park CC 1st XI v Gwersyllt Park CC 1st XI', 'Llay Welfare CC 1st XI v Llanrwst CC 1st XI', 'Dolgellau CC 1st XI v Bethesda CC 1st XI', 'Mold CC 1st XI v Conwy CC 1st XI', 'Carmel & District CC 1st XI v Ruthin CC 1st XI', 'Abergele CC 1st XI v Bersham CC 1st XI']
-['Conwy CC 1st XI v Llay Welfare CC 1st XI', 'Bethesda CC 1st XI v Gwersyllt Park CC 1st XI', 'Bersham CC 1st XI v Ruthin CC 1st XI', 'Hawarden Park CC 1st XI v Abergele CC 1st XI', 'Mold CC 1st XI v Dolgellau CC 1st XI', 'Carmel & District CC 1st XI v Llanrwst CC 1st XI']
-['Carmel & District CC 1st XI v Mold CC 1st XI', 'Bersham CC 1st XI v Ruthin CC 1st XI', 'Dolgellau CC 1st XI v Hawarden Park CC 1st XI', 'Llanrwst CC 1st XI v Bethesda CC 1st XI', 'Gwersyllt Park CC 1st XI v Abergele CC 1st XI', 'Conwy CC 1st XI v Llay Welfare CC 1st XI']
-['Conwy CC 1st XI v Llay Welfare CC 1st XI', 'Gwersyllt Park CC 1st XI v Bersham CC 1st XI', 'Dolgellau CC 1st XI v Abergele CC 1st XI', 'Mold CC 1st XI v Bethesda CC 1st XI', 'Ruthin CC 1st XI v Hawarden Park CC 1st XI', 'Llanrwst CC 1st XI v Carmel & District CC 1st XI']
+Date: Saturday 11 April 2020
+Bethesda CC 1st XI V Bersham CC 1st XI
+Ruthin CC 1st XI V Hawarden Park CC 1st XI
+Conwy CC 1st XI V Dolgellau CC 1st XI
+Llanrwst CC 1st XI V Abergele CC 1st XI
+Gwersyllt Park CC 1st XI V Carmel & District CC 1st XI
+Llay Welfare CC 1st XI V Mold CC 1st XI
+
+Date: Saturday 18 April 2020
+Mold CC 1st XI V Abergele CC 1st XI
+Carmel & District CC 1st XI V Dolgellau CC 1st XI
+Llay Welfare CC 1st XI V Conwy CC 1st XI
+Bethesda CC 1st XI V Gwersyllt Park CC 1st XI
+Hawarden Park CC 1st XI V Bersham CC 1st XI
+Ruthin CC 1st XI V Llanrwst CC 1st XI
+
+Date: Saturday 25 April 2020
+Dolgellau CC 1st XI V Bethesda CC 1st XI
+Llay Welfare CC 1st XI V Bersham CC 1st XI
+Llanrwst CC 1st XI V Ruthin CC 1st XI
+Mold CC 1st XI V Hawarden Park CC 1st XI
+Abergele CC 1st XI V Conwy CC 1st XI
+Carmel & District CC 1st XI V Gwersyllt Park CC 1st XI
+
+Date: Saturday 02 May 2020
+Carmel & District CC 1st XI V Hawarden Park CC 1st XI
+Ruthin CC 1st XI V Mold CC 1st XI
+Bersham CC 1st XI V Gwersyllt Park CC 1st XI
+Llanrwst CC 1st XI V Llay Welfare CC 1st XI
+Bethesda CC 1st XI V Abergele CC 1st XI
+Dolgellau CC 1st XI V Conwy CC 1st XI
+
+Date: Saturday 09 May 2020
+Conwy CC 1st XI V Bersham CC 1st XI
+Hawarden Park CC 1st XI V Gwersyllt Park CC 1st XI
+Llay Welfare CC 1st XI V Carmel & District CC 1st XI
+Llanrwst CC 1st XI V Dolgellau CC 1st XI
+Bethesda CC 1st XI V Mold CC 1st XI
+Ruthin CC 1st XI V Abergele CC 1st XI
+
+Date: Saturday 16 May 2020
+Abergele CC 1st XI V Ruthin CC 1st XI
+Carmel & District CC 1st XI V Llanrwst CC 1st XI
+Gwersyllt Park CC 1st XI V Mold CC 1st XI
+Conwy CC 1st XI V Bethesda CC 1st XI
+Bersham CC 1st XI V Hawarden Park CC 1st XI
+Llay Welfare CC 1st XI V Dolgellau CC 1st XI
+
+Date: Saturday 23 May 2020
+Carmel & District CC 1st XI V Bethesda CC 1st XI
+Hawarden Park CC 1st XI V Dolgellau CC 1st XI
+Llanrwst CC 1st XI V Bersham CC 1st XI
+Conwy CC 1st XI V Llay Welfare CC 1st XI
+Abergele CC 1st XI V Mold CC 1st XI
+Gwersyllt Park CC 1st XI V Ruthin CC 1st XI
+
+Date: Saturday 30 May 2020
+Gwersyllt Park CC 1st XI V Conwy CC 1st XI
+Llanrwst CC 1st XI V Hawarden Park CC 1st XI
+Abergele CC 1st XI V Llay Welfare CC 1st XI
+Ruthin CC 1st XI V Carmel & District CC 1st XI
+Mold CC 1st XI V Bersham CC 1st XI
+Bethesda CC 1st XI V Dolgellau CC 1st XI
+
+Date: Saturday 06 June 2020
+Hawarden Park CC 1st XI V Ruthin CC 1st XI
+Dolgellau CC 1st XI V Carmel & District CC 1st XI
+Llanrwst CC 1st XI V Bethesda CC 1st XI
+Mold CC 1st XI V Llay Welfare CC 1st XI
+Abergele CC 1st XI V Gwersyllt Park CC 1st XI
+Bersham CC 1st XI V Conwy CC 1st XI
+
+Date: Saturday 13 June 2020
+Ruthin CC 1st XI V Bersham CC 1st XI
+Mold CC 1st XI V Dolgellau CC 1st XI
+Llay Welfare CC 1st XI V Llanrwst CC 1st XI
+Conwy CC 1st XI V Abergele CC 1st XI
+Bethesda CC 1st XI V Carmel & District CC 1st XI
+Gwersyllt Park CC 1st XI V Hawarden Park CC 1st XI
+
+Date: Saturday 20 June 2020
+Bethesda CC 1st XI V Llay Welfare CC 1st XI
+Gwersyllt Park CC 1st XI V Bersham CC 1st XI
+Mold CC 1st XI V Conwy CC 1st XI
+Ruthin CC 1st XI V Dolgellau CC 1st XI
+Carmel & District CC 1st XI V Abergele CC 1st XI
+Hawarden Park CC 1st XI V Llanrwst CC 1st XI
+
+Date: Saturday 27 June 2020
+Gwersyllt Park CC 1st XI V Llanrwst CC 1st XI
+Conwy CC 1st XI V Ruthin CC 1st XI
+Mold CC 1st XI V Carmel & District CC 1st XI
+Hawarden Park CC 1st XI V Llay Welfare CC 1st XI
+Abergele CC 1st XI V Bethesda CC 1st XI
+Dolgellau CC 1st XI V Bersham CC 1st XI
+
+Date: Saturday 04 July 2020
+Llanrwst CC 1st XI V Gwersyllt Park CC 1st XI
+Bersham CC 1st XI V Llay Welfare CC 1st XI
+Dolgellau CC 1st XI V Hawarden Park CC 1st XI
+Bethesda CC 1st XI V Conwy CC 1st XI
+Abergele CC 1st XI V Carmel & District CC 1st XI
+Mold CC 1st XI V Ruthin CC 1st XI
+
+Date: Saturday 11 July 2020
+Conwy CC 1st XI V Mold CC 1st XI
+Llay Welfare CC 1st XI V Abergele CC 1st XI
+Hawarden Park CC 1st XI V Carmel & District CC 1st XI
+Gwersyllt Park CC 1st XI V Dolgellau CC 1st XI
+Bersham CC 1st XI V Llanrwst CC 1st XI
+Bethesda CC 1st XI V Ruthin CC 1st XI
+
+Date: Saturday 18 July 2020
+Gwersyllt Park CC 1st XI V Abergele CC 1st XI
+Carmel & District CC 1st XI V Ruthin CC 1st XI
+Bersham CC 1st XI V Mold CC 1st XI
+Bethesda CC 1st XI V Hawarden Park CC 1st XI
+Llanrwst CC 1st XI V Conwy CC 1st XI
+Dolgellau CC 1st XI V Llay Welfare CC 1st XI
+
+Date: Saturday 25 July 2020
+Llay Welfare CC 1st XI V Bethesda CC 1st XI
+Hawarden Park CC 1st XI V Mold CC 1st XI
+Abergele CC 1st XI V Llanrwst CC 1st XI
+Conwy CC 1st XI V Carmel & District CC 1st XI
+Bersham CC 1st XI V Dolgellau CC 1st XI
+Ruthin CC 1st XI V Gwersyllt Park CC 1st XI
+
+Date: Saturday 01 August 2020
+Bersham CC 1st XI V Bethesda CC 1st XI
+Carmel & District CC 1st XI V Conwy CC 1st XI
+Hawarden Park CC 1st XI V Abergele CC 1st XI
+Llay Welfare CC 1st XI V Ruthin CC 1st XI
+Mold CC 1st XI V Llanrwst CC 1st XI
+Dolgellau CC 1st XI V Gwersyllt Park CC 1st XI
+
+Date: Saturday 08 August 2020
+Abergele CC 1st XI V Bersham CC 1st XI
+Hawarden Park CC 1st XI V Conwy CC 1st XI
+Gwersyllt Park CC 1st XI V Bethesda CC 1st XI
+Ruthin CC 1st XI V Llay Welfare CC 1st XI
+Llanrwst CC 1st XI V Carmel & District CC 1st XI
+Dolgellau CC 1st XI V Mold CC 1st XI
+
+Date: Saturday 15 August 2020
+Conwy CC 1st XI V Gwersyllt Park CC 1st XI
+Bersham CC 1st XI V Abergele CC 1st XI
+Ruthin CC 1st XI V Bethesda CC 1st XI
+Llay Welfare CC 1st XI V Hawarden Park CC 1st XI
+Carmel & District CC 1st XI V Mold CC 1st XI
+Dolgellau CC 1st XI V Llanrwst CC 1st XI
+
+Date: Saturday 22 August 2020
+Gwersyllt Park CC 1st XI V Llay Welfare CC 1st XI
+Conwy CC 1st XI V Llanrwst CC 1st XI
+Abergele CC 1st XI V Hawarden Park CC 1st XI
+Dolgellau CC 1st XI V Ruthin CC 1st XI
+Carmel & District CC 1st XI V Bersham CC 1st XI
+Mold CC 1st XI V Bethesda CC 1st XI
+
+Date: Saturday 29 August 2020
+Carmel & District CC 1st XI V Llay Welfare CC 1st XI
+Bethesda CC 1st XI V Llanrwst CC 1st XI
+Bersham CC 1st XI V Ruthin CC 1st XI
+Dolgellau CC 1st XI V Abergele CC 1st XI
+Conwy CC 1st XI V Hawarden Park CC 1st XI
+Mold CC 1st XI V Gwersyllt Park CC 1st XI
+
+Date: Saturday 05 September 2020
+Ruthin CC 1st XI V Conwy CC 1st XI
+Llanrwst CC 1st XI V Mold CC 1st XI
+Hawarden Park CC 1st XI V Bethesda CC 1st XI
+Bersham CC 1st XI V Carmel & District CC 1st XI
+Abergele CC 1st XI V Dolgellau CC 1st XI
+Llay Welfare CC 1st XI V Gwersyllt Park CC 1st XI
+

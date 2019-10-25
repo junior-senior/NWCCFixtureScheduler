@@ -1,22 +1,176 @@
-['Marchwiel and Wrexham CC 2nd XI v Conwy CC 2nd XI', 'Rhewl CC 1st XI v Halkyn CC 2nd XI', 'Llanrwst CC 2nd XI v Ruthin CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Llangollen CC 1st XI', 'Bethesda CC 2nd XI v Dolgellau CC 2nd XI']
-['Bethesda CC 2nd XI v Llanrwst CC 2nd XI', 'Llangollen CC 1st XI v Dolgellau CC 2nd XI', 'Rhewl CC 1st XI v Halkyn CC 2nd XI', 'Conwy CC 2nd XI v Marchwiel and Wrexham CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Ruthin CC 2nd XI']
-['Marchwiel and Wrexham CC 2nd XI v Ruthin CC 2nd XI', 'Llandudno CC 2nd XI v Dolgellau CC 2nd XI', 'Llangollen CC 1st XI v Bethesda CC 2nd XI', 'Llanrwst CC 2nd XI v Halkyn CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Rhewl CC 1st XI']
-['Ruthin CC 2nd XI v Halkyn CC 2nd XI', 'Dolgellau CC 2nd XI v Bethesda CC 2nd XI', 'Llandudno CC 2nd XI v Llangollen CC 1st XI', 'Clwb Criced Caernarfon 1st XI v Conwy CC 2nd XI', 'Marchwiel and Wrexham CC 2nd XI v Llanrwst CC 2nd XI']
-['Rhewl CC 1st XI v Ruthin CC 2nd XI', 'Halkyn CC 2nd XI v Clwb Criced Caernarfon 1st XI', 'Conwy CC 2nd XI v Bethesda CC 2nd XI', 'Llanrwst CC 2nd XI v Llandudno CC 2nd XI', 'Dolgellau CC 2nd XI v Llangollen CC 1st XI']
-['Dolgellau CC 2nd XI v Marchwiel and Wrexham CC 2nd XI', 'Llandudno CC 2nd XI v Llanrwst CC 2nd XI', 'Conwy CC 2nd XI v Halkyn CC 2nd XI', 'Llangollen CC 1st XI v Bethesda CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Ruthin CC 2nd XI']
-['Clwb Criced Caernarfon 1st XI v Llanrwst CC 2nd XI', 'Rhewl CC 1st XI v Marchwiel and Wrexham CC 2nd XI', 'Halkyn CC 2nd XI v Llangollen CC 1st XI', 'Conwy CC 2nd XI v Bethesda CC 2nd XI', 'Dolgellau CC 2nd XI v Llandudno CC 2nd XI']
-['Ruthin CC 2nd XI v Dolgellau CC 2nd XI', 'Rhewl CC 1st XI v Halkyn CC 2nd XI', 'Llangollen CC 1st XI v Marchwiel and Wrexham CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Llandudno CC 2nd XI', 'Llanrwst CC 2nd XI v Conwy CC 2nd XI']
-['Llandudno CC 2nd XI v Marchwiel and Wrexham CC 2nd XI', 'Dolgellau CC 2nd XI v Rhewl CC 1st XI', 'Clwb Criced Caernarfon 1st XI v Llanrwst CC 2nd XI', 'Llangollen CC 1st XI v Ruthin CC 2nd XI', 'Bethesda CC 2nd XI v Halkyn CC 2nd XI']
-['Halkyn CC 2nd XI v Marchwiel and Wrexham CC 2nd XI', 'Llandudno CC 2nd XI v Llanrwst CC 2nd XI', 'Ruthin CC 2nd XI v Conwy CC 2nd XI', 'Llangollen CC 1st XI v Bethesda CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Dolgellau CC 2nd XI']
-['Ruthin CC 2nd XI v Llanrwst CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Conwy CC 2nd XI', 'Halkyn CC 2nd XI v Marchwiel and Wrexham CC 2nd XI', 'Dolgellau CC 2nd XI v Bethesda CC 2nd XI', 'Llandudno CC 2nd XI v Rhewl CC 1st XI']
-['Dolgellau CC 2nd XI v Halkyn CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Rhewl CC 1st XI', 'Bethesda CC 2nd XI v Llangollen CC 1st XI', 'Llandudno CC 2nd XI v Marchwiel and Wrexham CC 2nd XI', 'Ruthin CC 2nd XI v Llanrwst CC 2nd XI']
-['Bethesda CC 2nd XI v Marchwiel and Wrexham CC 2nd XI', 'Dolgellau CC 2nd XI v Llandudno CC 2nd XI', 'Halkyn CC 2nd XI v Conwy CC 2nd XI', 'Llanrwst CC 2nd XI v Ruthin CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Rhewl CC 1st XI']
-['Llandudno CC 2nd XI v Dolgellau CC 2nd XI', 'Conwy CC 2nd XI v Rhewl CC 1st XI', 'Bethesda CC 2nd XI v Clwb Criced Caernarfon 1st XI', 'Halkyn CC 2nd XI v Marchwiel and Wrexham CC 2nd XI', 'Ruthin CC 2nd XI v Llanrwst CC 2nd XI']
-['Halkyn CC 2nd XI v Llanrwst CC 2nd XI', 'Ruthin CC 2nd XI v Dolgellau CC 2nd XI', 'Conwy CC 2nd XI v Bethesda CC 2nd XI', 'Rhewl CC 1st XI v Marchwiel and Wrexham CC 2nd XI', 'Llangollen CC 1st XI v Clwb Criced Caernarfon 1st XI']
-['Dolgellau CC 2nd XI v Ruthin CC 2nd XI', 'Bethesda CC 2nd XI v Clwb Criced Caernarfon 1st XI', 'Halkyn CC 2nd XI v Llanrwst CC 2nd XI', 'Llangollen CC 1st XI v Marchwiel and Wrexham CC 2nd XI', 'Conwy CC 2nd XI v Llandudno CC 2nd XI']
-['Conwy CC 2nd XI v Dolgellau CC 2nd XI', 'Clwb Criced Caernarfon 1st XI v Rhewl CC 1st XI', 'Llandudno CC 2nd XI v Ruthin CC 2nd XI', 'Llanrwst CC 2nd XI v Llangollen CC 1st XI', 'Marchwiel and Wrexham CC 2nd XI v Halkyn CC 2nd XI']
-['Bethesda CC 2nd XI v Clwb Criced Caernarfon 1st XI', 'Dolgellau CC 2nd XI v Llangollen CC 1st XI', 'Halkyn CC 2nd XI v Rhewl CC 1st XI', 'Ruthin CC 2nd XI v Conwy CC 2nd XI', 'Llanrwst CC 2nd XI v Llandudno CC 2nd XI']
-['Clwb Criced Caernarfon 1st XI v Bethesda CC 2nd XI', 'Marchwiel and Wrexham CC 2nd XI v Conwy CC 2nd XI', 'Llangollen CC 1st XI v Llandudno CC 2nd XI', 'Halkyn CC 2nd XI v Rhewl CC 1st XI', 'Llanrwst CC 2nd XI v Dolgellau CC 2nd XI']
-['Bethesda CC 2nd XI v Conwy CC 2nd XI', 'Dolgellau CC 2nd XI v Clwb Criced Caernarfon 1st XI', 'Ruthin CC 2nd XI v Llanrwst CC 2nd XI', 'Marchwiel and Wrexham CC 2nd XI v Rhewl CC 1st XI', 'Halkyn CC 2nd XI v Llandudno CC 2nd XI']
-['Llanrwst CC 2nd XI v Llandudno CC 2nd XI', 'Llangollen CC 1st XI v Dolgellau CC 2nd XI', 'Rhewl CC 1st XI v Clwb Criced Caernarfon 1st XI', 'Conwy CC 2nd XI v Bethesda CC 2nd XI', 'Ruthin CC 2nd XI v Halkyn CC 2nd XI']
-['Llangollen CC 1st XI v Llanrwst CC 2nd XI', 'Marchwiel and Wrexham CC 2nd XI v Clwb Criced Caernarfon 1st XI', 'Rhewl CC 1st XI v Ruthin CC 2nd XI', 'Llandudno CC 2nd XI v Halkyn CC 2nd XI', 'Conwy CC 2nd XI v Dolgellau CC 2nd XI']
+Date: Saturday 11 April 2020
+Dolgellau CC 2nd XI V Ruthin CC 2nd XI
+Llanrwst CC 2nd XI V Conwy CC 2nd XI
+Llangollen CC 1st XI V Llandudno CC 2nd XI
+Rhewl CC 1st XI V Bethesda CC 2nd XI
+Marchwiel and Wrexham CC 2nd XI V None
+Clwb Criced Caernarfon 1st XI V Halkyn CC 2nd XI
+
+Date: Saturday 18 April 2020
+Halkyn CC 2nd XI V Marchwiel and Wrexham CC 2nd XI
+Llangollen CC 1st XI V None
+Dolgellau CC 2nd XI V Llandudno CC 2nd XI
+Bethesda CC 2nd XI V Clwb Criced Caernarfon 1st XI
+Rhewl CC 1st XI V Ruthin CC 2nd XI
+Conwy CC 2nd XI V Llanrwst CC 2nd XI
+
+Date: Saturday 25 April 2020
+Llangollen CC 1st XI V Conwy CC 2nd XI
+None V Llandudno CC 2nd XI
+Clwb Criced Caernarfon 1st XI V Rhewl CC 1st XI
+Bethesda CC 2nd XI V Marchwiel and Wrexham CC 2nd XI
+Halkyn CC 2nd XI V Llanrwst CC 2nd XI
+Ruthin CC 2nd XI V Dolgellau CC 2nd XI
+
+Date: Saturday 02 May 2020
+Llandudno CC 2nd XI V Conwy CC 2nd XI
+Bethesda CC 2nd XI V Llanrwst CC 2nd XI
+Halkyn CC 2nd XI V Clwb Criced Caernarfon 1st XI
+Rhewl CC 1st XI V None
+Marchwiel and Wrexham CC 2nd XI V Dolgellau CC 2nd XI
+Ruthin CC 2nd XI V Llangollen CC 1st XI
+
+Date: Saturday 09 May 2020
+Rhewl CC 1st XI V Clwb Criced Caernarfon 1st XI
+None V Llangollen CC 1st XI
+Halkyn CC 2nd XI V Conwy CC 2nd XI
+Llandudno CC 2nd XI V Marchwiel and Wrexham CC 2nd XI
+Dolgellau CC 2nd XI V Bethesda CC 2nd XI
+Llanrwst CC 2nd XI V Ruthin CC 2nd XI
+
+Date: Saturday 16 May 2020
+Ruthin CC 2nd XI V Halkyn CC 2nd XI
+Conwy CC 2nd XI V Llandudno CC 2nd XI
+None V Dolgellau CC 2nd XI
+Llanrwst CC 2nd XI V Clwb Criced Caernarfon 1st XI
+Marchwiel and Wrexham CC 2nd XI V Llangollen CC 1st XI
+Bethesda CC 2nd XI V Rhewl CC 1st XI
+
+Date: Saturday 23 May 2020
+Ruthin CC 2nd XI V Rhewl CC 1st XI
+None V Halkyn CC 2nd XI
+Llandudno CC 2nd XI V Llangollen CC 1st XI
+Marchwiel and Wrexham CC 2nd XI V Clwb Criced Caernarfon 1st XI
+Conwy CC 2nd XI V Dolgellau CC 2nd XI
+Llanrwst CC 2nd XI V Bethesda CC 2nd XI
+
+Date: Saturday 30 May 2020
+Dolgellau CC 2nd XI V Llangollen CC 1st XI
+Bethesda CC 2nd XI V None
+Clwb Criced Caernarfon 1st XI V Llanrwst CC 2nd XI
+Ruthin CC 2nd XI V Marchwiel and Wrexham CC 2nd XI
+Llandudno CC 2nd XI V Halkyn CC 2nd XI
+Conwy CC 2nd XI V Rhewl CC 1st XI
+
+Date: Saturday 06 June 2020
+Bethesda CC 2nd XI V Llandudno CC 2nd XI
+Dolgellau CC 2nd XI V None
+Llangollen CC 1st XI V Halkyn CC 2nd XI
+Clwb Criced Caernarfon 1st XI V Conwy CC 2nd XI
+Marchwiel and Wrexham CC 2nd XI V Ruthin CC 2nd XI
+Llanrwst CC 2nd XI V Rhewl CC 1st XI
+
+Date: Saturday 13 June 2020
+Marchwiel and Wrexham CC 2nd XI V Llanrwst CC 2nd XI
+Rhewl CC 1st XI V Llangollen CC 1st XI
+Conwy CC 2nd XI V Halkyn CC 2nd XI
+Dolgellau CC 2nd XI V Clwb Criced Caernarfon 1st XI
+Ruthin CC 2nd XI V Bethesda CC 2nd XI
+Llandudno CC 2nd XI V None
+
+Date: Saturday 20 June 2020
+Llangollen CC 1st XI V Rhewl CC 1st XI
+Conwy CC 2nd XI V None
+Halkyn CC 2nd XI V Ruthin CC 2nd XI
+Llanrwst CC 2nd XI V Llandudno CC 2nd XI
+Marchwiel and Wrexham CC 2nd XI V Bethesda CC 2nd XI
+Clwb Criced Caernarfon 1st XI V Dolgellau CC 2nd XI
+
+Date: Saturday 27 June 2020
+Bethesda CC 2nd XI V Halkyn CC 2nd XI
+Conwy CC 2nd XI V Ruthin CC 2nd XI
+Llanrwst CC 2nd XI V Dolgellau CC 2nd XI
+Marchwiel and Wrexham CC 2nd XI V Llandudno CC 2nd XI
+Llangollen CC 1st XI V Clwb Criced Caernarfon 1st XI
+None V Rhewl CC 1st XI
+
+Date: Saturday 04 July 2020
+Halkyn CC 2nd XI V Llangollen CC 1st XI
+Dolgellau CC 2nd XI V Conwy CC 2nd XI
+None V Bethesda CC 2nd XI
+Ruthin CC 2nd XI V Llanrwst CC 2nd XI
+Rhewl CC 1st XI V Marchwiel and Wrexham CC 2nd XI
+Clwb Criced Caernarfon 1st XI V Llandudno CC 2nd XI
+
+Date: Saturday 11 July 2020
+Clwb Criced Caernarfon 1st XI V None
+Conwy CC 2nd XI V Bethesda CC 2nd XI
+Llangollen CC 1st XI V Dolgellau CC 2nd XI
+Halkyn CC 2nd XI V Rhewl CC 1st XI
+Llanrwst CC 2nd XI V Marchwiel and Wrexham CC 2nd XI
+Llandudno CC 2nd XI V Ruthin CC 2nd XI
+
+Date: Saturday 18 July 2020
+Bethesda CC 2nd XI V Ruthin CC 2nd XI
+Llandudno CC 2nd XI V Llanrwst CC 2nd XI
+None V Conwy CC 2nd XI
+None V Marchwiel and Wrexham CC 2nd XI
+Halkyn CC 2nd XI V Dolgellau CC 2nd XI
+Clwb Criced Caernarfon 1st XI V Llangollen CC 1st XI
+
+Date: Saturday 25 July 2020
+Marchwiel and Wrexham CC 2nd XI V Conwy CC 2nd XI
+Llandudno CC 2nd XI V Clwb Criced Caernarfon 1st XI
+Bethesda CC 2nd XI V Llangollen CC 1st XI
+Rhewl CC 1st XI V Llanrwst CC 2nd XI
+Ruthin CC 2nd XI V None
+Dolgellau CC 2nd XI V Halkyn CC 2nd XI
+
+Date: Saturday 01 August 2020
+Conwy CC 2nd XI V Llangollen CC 1st XI
+Llandudno CC 2nd XI V Dolgellau CC 2nd XI
+Marchwiel and Wrexham CC 2nd XI V Rhewl CC 1st XI
+Llanrwst CC 2nd XI V None
+Ruthin CC 2nd XI V Clwb Criced Caernarfon 1st XI
+Halkyn CC 2nd XI V Bethesda CC 2nd XI
+
+Date: Saturday 08 August 2020
+Dolgellau CC 2nd XI V Llanrwst CC 2nd XI
+Llangollen CC 1st XI V Bethesda CC 2nd XI
+Rhewl CC 1st XI V Llandudno CC 2nd XI
+None V Ruthin CC 2nd XI
+Marchwiel and Wrexham CC 2nd XI V Halkyn CC 2nd XI
+Conwy CC 2nd XI V Clwb Criced Caernarfon 1st XI
+
+Date: Saturday 15 August 2020
+Rhewl CC 1st XI V Dolgellau CC 2nd XI
+Clwb Criced Caernarfon 1st XI V Ruthin CC 2nd XI
+None V Llanrwst CC 2nd XI
+Halkyn CC 2nd XI V Llandudno CC 2nd XI
+Bethesda CC 2nd XI V Conwy CC 2nd XI
+Llangollen CC 1st XI V Marchwiel and Wrexham CC 2nd XI
+
+Date: Saturday 22 August 2020
+Halkyn CC 2nd XI V None
+Ruthin CC 2nd XI V Conwy CC 2nd XI
+Bethesda CC 2nd XI V Dolgellau CC 2nd XI
+Llandudno CC 2nd XI V Rhewl CC 1st XI
+Llanrwst CC 2nd XI V Llangollen CC 1st XI
+Clwb Criced Caernarfon 1st XI V Marchwiel and Wrexham CC 2nd XI
+
+Date: Saturday 29 August 2020
+Llanrwst CC 2nd XI V Halkyn CC 2nd XI
+Conwy CC 2nd XI V Marchwiel and Wrexham CC 2nd XI
+Llangollen CC 1st XI V Ruthin CC 2nd XI
+None V Clwb Criced Caernarfon 1st XI
+Llandudno CC 2nd XI V Bethesda CC 2nd XI
+Dolgellau CC 2nd XI V Rhewl CC 1st XI
+
+Date: Saturday 05 September 2020
+Llangollen CC 1st XI V Llanrwst CC 2nd XI
+Rhewl CC 1st XI V Conwy CC 2nd XI
+Clwb Criced Caernarfon 1st XI V Bethesda CC 2nd XI
+Ruthin CC 2nd XI V Llandudno CC 2nd XI
+Rhewl CC 1st XI V Halkyn CC 2nd XI
+Dolgellau CC 2nd XI V Marchwiel and Wrexham CC 2nd XI
+
